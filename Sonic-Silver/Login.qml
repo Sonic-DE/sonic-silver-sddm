@@ -97,10 +97,6 @@ Item {
         trackSeconds: false
     }
 
-    Component.onCompleted: {
-        root.focusFirstVisibleFormControl();
-    }
-
     //goal is to show the prompts, in ~16 grid units high, then the action buttons
     //but collapse the space between the prompts and actions if there's no room
     //ui is constrained to 16 grid units wide, or the screen
